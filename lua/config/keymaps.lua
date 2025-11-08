@@ -8,3 +8,4 @@ vim.keymap.set(
   { desc = "Enable Copilot autocomplete and show status" }
 )
 vim.keymap.set("t", "<Esc>", [[<C-\><C-n>]], { desc = "Exit terminal mode" })
+vim.keymap.set("n", "<leader>i", "o<Esc>ki", { desc = "Insert at proper indent" })
